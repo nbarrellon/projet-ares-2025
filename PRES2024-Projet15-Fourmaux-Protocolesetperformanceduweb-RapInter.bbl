@@ -1,0 +1,395 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Capitole_du_Libre_2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1daccbba750b7924582d42f051bc5c21}{%
+           family={{Capitole du Libre}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1daccbba750b7924582d42f051bc5c21}
+      \strng{fullhash}{1daccbba750b7924582d42f051bc5c21}
+      \strng{bibnamehash}{1daccbba750b7924582d42f051bc5c21}
+      \strng{authorbibnamehash}{1daccbba750b7924582d42f051bc5c21}
+      \strng{authornamehash}{1daccbba750b7924582d42f051bc5c21}
+      \strng{authorfullhash}{1daccbba750b7924582d42f051bc5c21}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Licence de paternité Creative Commons (réutilisation autorisée)}
+      \field{month}{11}
+      \field{title}{Le protocole {QUIC}, ou la nouvelle couche de transport — {Stéphane} {Bortzmeyer}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=tJTWaG9VF6c
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=tJTWaG9VF6c
+      \endverb
+    \endentry
+    \entry{eddy_transmission_2022}{report}{}
+      \name{author}{1}{}{%
+        {{hash=eff1d6e4dc522328e3ceeed671666aad}{%
+           family={Eddy},
+           familyi={E\bibinitperiod},
+           given={Wesley},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Internet Engineering Task Force}%
+      }
+      \strng{namehash}{eff1d6e4dc522328e3ceeed671666aad}
+      \strng{fullhash}{eff1d6e4dc522328e3ceeed671666aad}
+      \strng{bibnamehash}{eff1d6e4dc522328e3ceeed671666aad}
+      \strng{authorbibnamehash}{eff1d6e4dc522328e3ceeed671666aad}
+      \strng{authornamehash}{eff1d6e4dc522328e3ceeed671666aad}
+      \strng{authorfullhash}{eff1d6e4dc522328e3ceeed671666aad}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This document specifies the Transmission Control Protocol (TCP). TCP is an important transport-layer protocol in the Internet protocol stack, and it has continuously evolved over decades of use and growth of the Internet. Over this time, a number of changes have been made to TCP as it was specified in RFC 793, though these have only been documented in a piecemeal fashion. This document collects and brings those changes together with the protocol specification from RFC 793. This document obsoletes RFC 793, as well as RFCs 879, 2873, 6093, 6429, 6528, and 6691 that updated parts of RFC 793. It updates RFCs 1011 and 1122, and it should be considered as a replacement for the portions of those documents dealing with TCP requirements. It also updates RFC 5961 by adding a small clarification in reset handling while in the SYN-RECEIVED state. The TCP header control bits from RFC 793 have also been updated based on RFC 3168.}
+      \field{month}{8}
+      \field{note}{Num Pages: 98}
+      \field{number}{RFC 9293}
+      \field{title}{Transmission {Control} {Protocol} ({TCP})}
+      \field{type}{Request for {Comments}}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.17487/RFC9293
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/nils-barrellon/Zotero/storage/KUYKFWLS/Eddy - 2022 - Transmission Control Protocol (TCP).pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://datatracker.ietf.org/doc/rfc9293
+      \endverb
+      \verb{url}
+      \verb https://datatracker.ietf.org/doc/rfc9293
+      \endverb
+    \endentry
+    \entry{iyengar_quic_2021}{report}{}
+      \name{author}{2}{}{%
+        {{hash=4905b40bfc3c9ef595374b08ba668976}{%
+           family={Iyengar},
+           familyi={I\bibinitperiod},
+           given={Jana},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a4e224194a64046472d567f5d35b02bc}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Internet Engineering Task Force}%
+      }
+      \strng{namehash}{de436ff97ab7ec529a9d020200022fe7}
+      \strng{fullhash}{de436ff97ab7ec529a9d020200022fe7}
+      \strng{bibnamehash}{de436ff97ab7ec529a9d020200022fe7}
+      \strng{authorbibnamehash}{de436ff97ab7ec529a9d020200022fe7}
+      \strng{authornamehash}{de436ff97ab7ec529a9d020200022fe7}
+      \strng{authorfullhash}{de436ff97ab7ec529a9d020200022fe7}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This document defines the core of the QUIC transport protocol. QUIC provides applications with flow-controlled streams for structured communication, low-latency connection establishment, and network path migration. QUIC includes security measures that ensure confidentiality, integrity, and availability in a range of deployment circumstances. Accompanying documents describe the integration of TLS for key negotiation, loss detection, and an exemplary congestion control algorithm.}
+      \field{month}{5}
+      \field{note}{Num Pages: 151}
+      \field{number}{RFC 9000}
+      \field{shorttitle}{{QUIC}}
+      \field{title}{{QUIC}: {A} {UDP}-{Based} {Multiplexed} and {Secure} {Transport}}
+      \field{type}{Request for {Comments}}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.17487/RFC9000
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/nils-barrellon/Zotero/storage/KUGTURUU/Iyengar et Thomson - 2021 - QUIC A UDP-Based Multiplexed and Secure Transport.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://datatracker.ietf.org/doc/rfc9000
+      \endverb
+      \verb{url}
+      \verb https://datatracker.ietf.org/doc/rfc9000
+      \endverb
+    \endentry
+    \entry{liu_security_2023}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=9419610d270972bdd30e81d791d61b96}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f1504fb1ba5a25a12a49282c24b98018}{%
+           family={Crowley},
+           familyi={C\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{e7018df24fe0d974c94988dd6b3420b5}
+      \strng{fullhash}{e7018df24fe0d974c94988dd6b3420b5}
+      \strng{bibnamehash}{e7018df24fe0d974c94988dd6b3420b5}
+      \strng{authorbibnamehash}{e7018df24fe0d974c94988dd6b3420b5}
+      \strng{authornamehash}{e7018df24fe0d974c94988dd6b3420b5}
+      \strng{authorfullhash}{e7018df24fe0d974c94988dd6b3420b5}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We focus on the security and performance characteristics of the QUIC protocol, exploring its security qualitatively and its performance quantitatively through experimentation. Performance comparisons between QUIC and traditional TCP-based counterparts were made through experiments under various dimensions. These comparisons were based on measurements of running code on real computing and networking resources within Washington University's Open Network Lab (ONL). The experimental results show that QUIC clients perform as well as or better than TCP clients for single-stream resources with limited bandwidth. However, minimal performance differences exist between QUIC and TCP for multiple streams.}
+      \field{booktitle}{Proceedings of the 10th {ACM} {Conference} on {Information}-{Centric} {Networking}}
+      \field{isbn}{979-8-4007-0403-1}
+      \field{month}{10}
+      \field{series}{{ACM} {ICN} '23}
+      \field{title}{Security and {Performance} {Characteristics} of {QUIC} and {HTTP}/3}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{124\bibrangedash 126}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1145/3623565.3623757
+      \endverb
+      \verb{file}
+      \verb Texte intégral:/home/nils-barrellon/Zotero/storage/NMDRZ9EX/Liu et Crowley - 2023 - Security and Performance Characteristics of QUIC and HTTP3.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3623565.3623757
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3623565.3623757
+      \endverb
+    \endentry
+    \entry{mucke_reacked_2024}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=f721e45a8785f0e5de37d333af8c5d30}{%
+           family={Mücke},
+           familyi={M\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4861f11aea3e3251c57a80b7950f8149}{%
+           family={Nawrocki},
+           familyi={N\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f1d13cee138a7e9c784efd75c4b591bd}{%
+           family={Hiesgen},
+           familyi={H\bibinitperiod},
+           given={Raphael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c834dc8a5cb0646371794a22957a5130}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0375f643204047ac05e217636b5647e7}{%
+           family={Wählisch},
+           familyi={W\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{e62ae5b64f9653bfa5a390a2dfc3799c}
+      \strng{fullhash}{04a099bb95f828c37b715dffffb431c1}
+      \strng{bibnamehash}{e62ae5b64f9653bfa5a390a2dfc3799c}
+      \strng{authorbibnamehash}{e62ae5b64f9653bfa5a390a2dfc3799c}
+      \strng{authornamehash}{e62ae5b64f9653bfa5a390a2dfc3799c}
+      \strng{authorfullhash}{04a099bb95f828c37b715dffffb431c1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this paper, we present a detailed performance analysis of QUIC instant{\textasciitilde}ACK, a standard-compliant approach to reduce waiting times during the QUIC connection setup in common CDN deployments. To understand the root causes of the performance properties, we combine numerical analysis and the emulation of eight QUIC implementations using the QUIC Interop Runner. Our experiments comprehensively cover packet loss and non-loss scenarios, different round trip times, and TLS certificate sizes. To clarify instant ACK deployments in the wild, we conduct active measurements of 1M{\textasciitilde}popular domain names. For almost all domain names under control of Cloudflare, Cloudflare uses instant ACK, which in fact improves performance. We also find, however, that instant ACK may lead to unnecessary retransmissions or longer waiting times under some network conditions, raising awareness of drawbacks of instant ACK in the future.}
+      \field{booktitle}{Proceedings of the 2024 {ACM} on {Internet} {Measurement} {Conference}}
+      \field{isbn}{979-8-4007-0592-2}
+      \field{month}{11}
+      \field{series}{{IMC} '24}
+      \field{shorttitle}{{ReACKed} {QUICer}}
+      \field{title}{{ReACKed} {QUICer}: {Measuring} the {Performance} of {Instant} {Acknowledgments} in {QUIC} {Handshakes}}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{389\bibrangedash 400}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1145/3646547.3689022
+      \endverb
+      \verb{file}
+      \verb PDF:/home/nils-barrellon/Zotero/storage/HEKDDY5E/Mücke et al. - 2024 - ReACKed QUICer Measuring the Performance of Instant Acknowledgments in QUIC Handshakes.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3646547.3689022
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3646547.3689022
+      \endverb
+    \endentry
+    \entry{muthuraj_replication_2024}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=eeb10ddbd57cc9015e273dbdf9db4797}{%
+           family={Muthuraj},
+           familyi={M\bibinitperiod},
+           given={Naveenraj},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e3b307e76880e241555c533544e1f68d}{%
+           family={Eghbal},
+           familyi={E\bibinitperiod},
+           given={Nooshin},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f88f992658309ff81dcd063ea28e1352}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{e44825d140ac7898749e4629d9b7dcc9}
+      \strng{fullhash}{e44825d140ac7898749e4629d9b7dcc9}
+      \strng{bibnamehash}{e44825d140ac7898749e4629d9b7dcc9}
+      \strng{authorbibnamehash}{e44825d140ac7898749e4629d9b7dcc9}
+      \strng{authornamehash}{e44825d140ac7898749e4629d9b7dcc9}
+      \strng{authorfullhash}{e44825d140ac7898749e4629d9b7dcc9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{QUIC, a rapidly evolving protocol, has gained prominence with its standardization and increased adoption as HTTP/3 on the World Wide Web. Originating from Google in 2014, QUIC has seen significant changes in transitioning from Google QUIC (gQUIC) to an IETF standard in 2021. Understanding the performance of the current version of QUIC in comparison to its predecessors is crucial given its evolution and widespread adoption.This study conducts a comprehensive performance evaluation of two versions of QUIC: Google QUIC version 37 (gQUICv37, 2017) and IETF QUIC version 1 (QUICv1, 2021). Following parameters and methodologies established by a notable QUIC paper from 2017, we replicate their experiments on gQUICv37 and extend it to QUICv1, leveraging the Emulab testbed to facilitate reproducible research.We show that the performance advantages of QUIC over TCP, given by core features like 0-RTT and multiple streams, are consistent in gQUICv37 and QUICv1. However, notable performance differences arise between the versions due to the implementation of the new BBR congestion control algorithm and an updated loss-detection strategy in QUICv1, resulting in improved performance for QUICv1 under packet reordering scenarios. By utilizing Emulab and sharing our scripts, we enable replication and extension of our study for future QUIC versions.}
+      \field{booktitle}{Proceedings of the 2024 {ACM} on {Internet} {Measurement} {Conference}}
+      \field{isbn}{979-8-4007-0592-2}
+      \field{month}{11}
+      \field{series}{{IMC} '24}
+      \field{shorttitle}{Replication}
+      \field{title}{Replication: "{Taking} a long look at {QUIC}"}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{375\bibrangedash 388}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1145/3646547.3688453
+      \endverb
+      \verb{file}
+      \verb PDF:/home/nils-barrellon/Zotero/storage/7YP3JQXU/Muthuraj et al. - 2024 - Replication Taking a long look at QUIC.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3646547.3688453
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3646547.3688453
+      \endverb
+    \endentry
+    \entry{yu_dissecting_2021}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=b2e10d22454e6a0f7340ffb2abd44ae0}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=23403a433ea7b59918bd9cf6799ff842}{%
+           family={Benson},
+           familyi={B\bibinitperiod},
+           given={Theophilus\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Ljubljana Slovenia}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{08d7afcf0a4c8b27a73a598528a78610}
+      \strng{fullhash}{08d7afcf0a4c8b27a73a598528a78610}
+      \strng{bibnamehash}{08d7afcf0a4c8b27a73a598528a78610}
+      \strng{authorbibnamehash}{08d7afcf0a4c8b27a73a598528a78610}
+      \strng{authornamehash}{08d7afcf0a4c8b27a73a598528a78610}
+      \strng{authorfullhash}{08d7afcf0a4c8b27a73a598528a78610}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the {Web} {Conference} 2021}
+      \field{isbn}{978-1-4503-8312-7}
+      \field{month}{4}
+      \field{title}{Dissecting {Performance} of {Production} {QUIC}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{1157\bibrangedash 1168}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1145/3442381.3450103
+      \endverb
+      \verb{file}
+      \verb PDF:/home/nils-barrellon/Zotero/storage/TFWW6TDQ/Yu et Benson - 2021 - Dissecting Performance of Production QUIC.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3442381.3450103
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3442381.3450103
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

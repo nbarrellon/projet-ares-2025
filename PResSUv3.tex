@@ -1,0 +1,273 @@
+%% 
+%% File:    PResSUv2.tex
+%% Author:  Olivier Fourmaux (olivier.fourmaux@sorbonne-universite.fr)
+%% 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Type et package
+
+\documentclass[a4paper,12pt]{article}
+\usepackage[french,english]{babel}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage{cmbright}
+\usepackage{epsfig}
+\usepackage{calc}
+\usepackage{url}
+\usepackage{boxedminipage}
+\usepackage{graphicx}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Définitions à personnaliser 
+
+%% Pour les noms, utilisez la première lettre du prénom suivi du 
+%% nom de famille (première lettre majuscule, reste en minuscule).
+
+
+%%%% Indiquer le nom de l'encadrant ci-dessous:
+
+\def\nomEncad{Prénom\_Nom\_Encadrant}
+
+%% Si le projet est co-encadré indiquer les deux noms à la suite dans 
+%% Le même champs
+
+
+%%%% Indiquer les noms des étudiants participant ci-dessous:
+
+\def\nomEtudA{Prénom\_Nom\_Etudiant1}
+\def\nomEtudB{Prénom\_Nom\_Etudiant2}
+\def\nomEtudC{Prénom\_Nom\_Etudiant3}
+\def\nomEtudD{Prénom\_Nom\_Etudiant4}
+
+%% Si le projet est encadré par moins de 4 étudiants laissez
+%% les variables inutiles vides
+
+
+%%%% Indiquer la référence (numero) et le nom du sujet ci-dessous:
+
+\def\refProjet{33} 
+\def\titreProjetCourt{Intég. XTP sous IPv6 }
+\def\titreProjetLong{Intégration du protocole XTP\\ dans l'environnement IPv6}
+
+%% Le titre court ne doit pas faire plus d'une vingtaine de caractère
+%% résumez le à quelques mots essenciels
+
+
+%%%% Indiquer le type de document et sa version ci-dessous:
+
+\def\typeDoc{Rapport intermédaire/final}
+ 
+%% - Rapport intermédaire
+%% - Rapport final
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Définitions à ne pas modifier
+ 
+%%%%% ||| Mise en page verticale ||| 
+\setlength{\voffset}{-1in} % a4:reste 297mm pour les 5 suivants:
+\setlength{\topmargin}{15mm}         % avant l'en-tête
+\setlength{\headheight}{20mm}        % hauteur de l'en-tête 
+\setlength{\headsep}{10mm}            % entre l'en-tête et le corps
+\setlength{\textheight}{220mm}       % hauteur du corps
+\setlength{\footskip}{12mm}          % pied de page par rapport au corps 
+
+%%%%% --- Mise en page horizontale ---
+\setlength{\hoffset}{-1in} % a4:reste 210mm 
+\setlength{\oddsidemargin}{25mm}     % entre hoffset et le corps
+\setlength{\evensidemargin}{25mm}    % entre hoffset et le corps
+\setlength{\marginparwidth}{0mm}     % largeur de la marge
+\setlength{\marginparsep}{0mm}       % séparateur corps marge
+\setlength{\textwidth}{160mm}        % largeur du corps
+
+\def\annee{2016-17}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Début du document
+
+\begin{document}
+%\sffamily
+\selectlanguage{french}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Définition des en-têtes et pied de pages
+\pagestyle{fancyplain}
+\lhead[\fancyplain{}{Master Informatique\\ UE \textbf{PRes} fév. \annee \\ \nomEncad}]
+      {\fancyplain{}{Master Informatique\\ UE \textbf{PRes} \annee \\ \nomEncad}}
+\chead[\fancyplain{}{\textbf{Projet \refProjet\\\titreProjetCourt}}]
+      {\fancyplain{}{\textbf{Projet \refProjet\\\titreProjetCourt}}}
+\rhead[\fancyplain{}{\nomEtudA\\\nomEtudB\\\nomEtudC\\\nomEtudD}]
+      {\fancyplain{}{\nomEtudA\\\nomEtudB\\\nomEtudC\\\nomEtudD}}
+\lfoot[\fancyplain{}{\includegraphics[width=3cm]{LOGO_SCIENCES_DEF_CMJN_med.jpg}}]
+      {\fancyplain{}{\includegraphics[width=3cm]{LOGO_SCIENCES_DEF_CMJN_med.jpg}}}
+\cfoot[\fancyplain{}{\textbf{\thepage/\pageref{fin}}}]
+      {\fancyplain{}{\textbf{\thepage/\pageref{fin}}}}
+\rfoot[\fancyplain{}{\typeDoc}]
+      {\fancyplain{}{\typeDoc}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+~
+
+      \begin{center}
+        \begin{boxedminipage}{12cm}{
+            \begin{center}
+              ~\\\LARGE\textbf{\titreProjetLong}\\
+              ~\\\large Encadrant: \textbf{\nomEncad,}\\
+              ~\\\large Etudiants: \textbf{\nomEtudA, \nomEtudB, \nomEtudC, \nomEtudD}\\
+              ~
+            \end{center}
+            }
+        \end{boxedminipage}
+      \end{center}
+
+~
+
+\tableofcontents
+
+\newpage
+
+\section{Cahier des charges}
+Ici doit prendre place votre cahier des charges.
+Pour les besoins de présentation, nous utilisons cette section comme modèle de mise en forme des rapports que vous devez fournir pour cette UE.
+Dans la suite, nous allons donc plutôt développer les points suivants (qu'il faudra supprimer de vos rendus):
+
+\subsection{Contenu des rapports}
+Deux rapports sont à fournir pour l'évaluation d'un projet: l'intermédiaire et le final.
+
+
+\subsubsection{Le rapport intermédiaire}
+Le rapport intermédiaire se compose:
+\begin{itemize}
+\item d'un cahier des charges (1 page max),
+\item d'un plan de développement (1 à 2 pages plus un
+  diagramme de Gantt pour visualiser le séquencement des tâches réalisées par
+  \textbf{chaque} étudiant),
+\item d'une analyse (3 à 5 pages),
+\item d'une conception \textbf{envisagée} (3 à 5 pages),
+\item d'un état d'avancement du projet (1 page max justifiant l'état de
+  réalisation du projet au moment du rapport).
+\item d'une bibliographie réalisée grâce au \textbf{tutorat de la MIR} (1 à 2 pages),
+\end{itemize}
+
+\textbf{Le non-respect des contraintes quantitatives liées au texte du
+  document sera pénalisant.}
+Les graphiques (illustrations, dessins, schémas, diagrammes courbes...) sont
+bienvenus pour illustrer les textes précédent. Ils viennent en plus du texte et
+ne sont pas comptabilisés dans les limitations impératives indiquées
+précédemment. Ils doivent rester de taille modérée pour ne pas trop alourdir
+le rapport.
+
+
+\subsubsection{Le rapport final}
+Le rapport final se compose:
+\begin{itemize}
+\item du cahier des charges initial \textbf{inchangé} (celui du rapport intermédiaire),
+\item du plan de développement (adapté si nécessaire, \textbf{en précisant les modifications}),
+\item de l'analyse \textbf{actualisée} (3 à 5 pages),
+\item de la conception \textbf{réalisée} (3 à 5 pages),
+\item d'un \textbf{compte rendu du projet} (5 à 10 pages, précisant le déroulement,
+  la réalisation, la validation et la livraison de ce qui avait été
+  demandé),
+\item de la bibliographie \textbf{actualisée} (1 à 2 pages),
+\item d'annexes (si utiles pour la compréhension ou démontrant la qualité du
+travail: extraits de codes commentés, manuels rédigés, etc.).
+\end{itemize}
+
+
+
+\subsection{Présentation du document}
+Le document ici présenté sert de référence en terme de présentation. Des
+modèles \LaTeX, OpenDocument et MSWord sont disponibles.
+\textbf{Le non-respect de la charte de présentation du document sera également
+pénalisant.}
+
+Chaque rapport doit être composé d'un seul document avec les différentes
+parties indiquées précédemment. Eventuellement, des annexes peuvent compléter
+le document si celles-ci sont nécessaires à la bonne compréhension de
+l'analyse ou du travail effectué\footnote{Attention, les annexes comportant
+  du code source ne sont pertinentes que si le code proposé est largement
+  commenté et relativement court. On se limitera donc à quelques échantillons
+  essentiels pour la compréhension du travail réalisé.}.
+
+La police de caractère utilisée devra être sans sérif (Helvetica, Arial, Calibri ou CM sans serif de LaTeX). La taille de celle-ci sera de \textbf{12 points}.
+
+La première page comporte le titre (en \textbf{gras}), le nom de l'encadrant
+et ceux des étudiants dans un cadre simple, centré, de 12 à 14 cm de large. Une
+table des matières suit immédiatement le titre. Veillez à ce qu'il n'y ait pas
+trop de niveaux visibles (la table des matières doit impérativement être limitée à la première
+page).
+
+Chaque page, y compris la première (celle du titre) comporte un en-tête, un
+corps et un pied de page.
+
+\subsubsection{En-tête d'une page}
+L'en-tête indique le Master Informatique, 
+le nom de l'UE avec l'année universitaire en cours puis
+le nom de l'encadrant (prénom en minuscule puis nom de famille en majuscule).
+Au centre de l'en-tête est indiqué en \textbf{gras} la référence du projet (son numéro) et son titre résumé (une vingtaine de caractères). 
+A gauche de l'en-tête doit se trouver le nom des étudiants (initiale du prénom puis nom de famille avec seule la première lettre en majuscule pour chacun).
+
+\subsubsection{Corps d'une page}
+La zone d'écriture est de \textbf{16 cm} de large sur \textbf{22 cm} de
+hauteur. Comme indiqué, la taille de la police pour le texte
+normal est de 12 points, l'interlignage simple, la justification double et
+les différents espacements autour des titres et paragraphes standard. Un
+paragraphe commence par un retrait positif de 1 cm (sauf le premier d'une section). 
+
+Les différentes parties seront identifiées par des titres de 1er niveau. Le
+titre de deuxième et troisième niveau seront utilisés pour les structurer.
+\footnote{ Attention à bien limiter la taille de votre table des
+matières résultante. Il faut évidement utiliser le formatage automatique et
+typer les zones de texte à sémantique particulière telles que les titres de
+section pour obtenir la mise en forme standard attendue et pouvoir générer
+automatiquement la table des matières.}.
+
+\subsubsection{Pied de page}
+Le pied de page comporte à droite le nouveau logo de la faculté des Sciences de Sorbonne Université sur 3 cm de large, le numéro de la page relatif par rapport au nombre total de pages en \textbf{gras} au centre et à gauche le type de rapport (intermédaire ou final).
+
+\subsection{Transmission des rapports}
+Avant tout envoi d'un rapport définitif, une version préliminaire est à envoyer à votre encadrant afin qu'il avalise votre travail. Les rapports définitifs sont à téléverser en format \textbf{PDF}\footnote{Pour vérifier si votre PDF est portable, envoyez-le en test sur une machine sous GNU/Linux et lisez-le avec le lecteur PDF local.} aux dates spécifiées et via les instructions indiquées. 
+
+\textbf{Tout retard sera évidement pénalisant. }
+
+\section{Plan de développement}
+
+
+\section{Bibliographie}
+
+
+\section{Analyse}
+
+
+\section{Conception}
+
+
+\section{Etat d'avancement/Compte rendu}
+Selon le type de rapport (intermédaire/final).
+
+
+\section{Annexe A}
+Si besoin, pour le rapport final.
+
+
+\section{Annexe B...}
+
+
+
+\label{fin}
+
+\end{document}
+
